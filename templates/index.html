@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TitanAI builds enterprise AI systems, multi-agent workflows, AI security layers, and intelligent automation for modern businesses." />
+    <title>TITANAI | AI Systems, Security & Automation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">T</div>
+          <div>
+            <span class="brand-name">TITANAI</span>
+            <small>AI systems studio</small>
+          </div>
+        </div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button ghost" href="#contact">Book a call</a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">AI SYSTEMS • CYBERSECURITY • AUTOMATION</p>
+            <h1>Build the next intelligent system with TitanAI.</h1>
+            <p class="lede">
+              We design and ship enterprise-grade AI infrastructure, autonomous workflows,
+              agentic systems, Retrieval-Augmented Generation engines, and high-trust security
+              layers for founders, operators, and ambitious teams.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">Explore projects</a>
+              <a class="button secondary" href="#contact">Start a project</a>
+            </div>
+            <ul class="hero-notes">
+              <li>AI strategy & product design</li>
+              <li>Multi-agent workflows</li>
+              <li>Local-first AI deployments</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+            <div class="panel main-panel">
+              <div class="chip">LIVE SYSTEMS</div>
+              <div class="console-line">agent.invoke({ tool: 'search' })</div>
+              <div class="console-line">retriever.similarity_search(q, k=8)</div>
+              <div class="console-line">POST /v1/agents/run</div>
+              <div class="signal-grid">
+                <span>LLM</span>
+                <span>RAG</span>
+                <span>Memory</span>
+                <span>Security</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="metrics">
+          <div>
+            <strong>10+</strong>
+            <span>AI systems and product experiments</span>
+          </div>
+          <div>
+            <strong>5+</strong>
+            <span>AI and automation domains explored</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>Operational intelligence mindset</span>
+          </div>
+        </section>
+
+        <section id="solutions" class="solutions">
+          <div class="section-heading">
+            <p class="eyebrow">WHAT WE BUILD</p>
+            <h2>AI infrastructure that moves the business forward.</h2>
+          </div>
+          <div class="solution-grid">
+            <article>
+              <span>01</span>
+              <h3>Generative AI products</h3>
+              <p>LLM copilots, document intelligence, and AI-native user experiences built for real workflows.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Multi-agent systems</h3>
+              <p>Autonomous teams of agents coordinating memory, tools, retrieval, and task execution.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>RAG & memory layers</h3>
+              <p>Persistent memory engines, semantic search, vector retrieval, and knowledge graph flows.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>AI security & governance</h3>
+              <p>Guardrails, evaluation pipelines, safe automation, and cyber-aware intelligence systems.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="projects">
+          <div class="section-heading">
+            <p class="eyebrow">PROJECT PORTFOLIO</p>
+            <h2>Built across AI, automation, security, and enterprise systems.</h2>
+          </div>
+          <div id="project-grid" class="project-grid"></div>
+        </section>
+
+        <section class="cta-band">
+          <div>
+            <p class="eyebrow">TITANAI</p>
+            <h2>Ready to turn AI into an advantage?</h2>
+          </div>
+          <a class="button primary" href="#contact">Talk with TitanAI</a>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer">
+        <div>
+          <span class="brand-name">TITANAI</span>
+          <p>AI strategy, systems design, automation, and future-facing product builds.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:yash@titanai.dev">yash@titanai.dev</a>
+          <a href="https://github.com/Yash1453" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
